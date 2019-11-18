@@ -10,6 +10,6 @@ public class Client {
         KmpUtils kmpUtils = new KmpUtils();
         System.out.println(kmpUtils.indexOf("cda","abcabcda"));
 
-        System.out.println(kmpUtils.kmpIndexOf("cda","abcabcda"));
+        System.out.println(kmpUtils.kmpIndexOf("bca","abcabcda"));
     }
 }
